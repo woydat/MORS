@@ -1,0 +1,117 @@
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.flexWrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.divH2{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.titleH2 {
+    font-size: 6rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    line-height: 100%
+}
+.contentTitleH2 {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.divArticle {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 30px;  
+}
+.article{
+    float: left;
+    width: 33.3333%;
+    padding: 5px;
+}
+.article66{
+    float: right;
+    width: 66.66667%;
+    padding: 5px;
+}
+.articleA {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    position: relative;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.ratio {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+.ratioImg {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: auto;
+    height: 100%;
+    max-width: none;
+}
+.articleIntro {
+    padding: 20px;
+}
+.articleInner {
+    padding-bottom: 30px;
+}
+.titleBlock {
+    font-size: 2.5rem;
+    line-height: 125%;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.articleMore {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+    color: inherit;
+}
+
+@media (min-width: 400px) and (max-width: 799px){
+    .section {
+        padding: 35px 0;
+    }
+    .section:first-child {
+        padding-top: 40px;
+    }
+    .titleH2 {
+        font-size: 2.6rem;
+        margin-bottom: 20px;
+    }
+    .titleBlock {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 800px){
+    .section {
+        padding: 100px 0;
+    }
+
+    .section:first-child {
+        padding-top: 120px;
+    }
+    .titleBlock {
+        font-size: 2.2rem;
+        margin-bottom: 30px
+    }
+}

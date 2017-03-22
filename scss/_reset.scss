@@ -1,0 +1,105 @@
+*,
+:after,
+:before {
+    box-sizing: inherit
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Neue Helvetica W01', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    padding-top: 60px;
+    font-size: 1.8rem
+}
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+blockquote,
+figure,
+h1,
+h2,
+h3,
+h4,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit
+}
+
+strong {
+    font-weight: 700
+}
+
+a,
+button {
+    color: inherit
+}
+
+a {
+    text-decoration: none
+}
+
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: 0 0;
+    cursor: pointer
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 100%
+}
+
+li,
+p {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0
+}
+
+p {
+    line-height: 150%
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
