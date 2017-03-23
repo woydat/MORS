@@ -29,7 +29,7 @@
 }
 .article{
     float: left;
-    width: 33.3333%;
+    width: 33.33333%;
     padding: 5px;
 }
 .article66{
@@ -63,17 +63,20 @@
     height: 100%;
     max-width: none;
 }
+.ratioDouble {
+    padding-bottom: calc(50% - (20px / 2));
+}
 .articleIntro {
     padding: 20px;
 }
 .articleInner {
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 .titleBlock {
-    font-size: 2.5rem;
-    line-height: 125%;
+    font-size: 2rem;
+    line-height: 110%;
     margin-bottom: 40px;
-    font-weight: 700;
+    font-weight: 550;
 }
 .articleMore {
     position: absolute;
@@ -83,6 +86,17 @@
     -webkit-transition: color .3s;
     transition: color .3s;
     color: inherit;
+}
+.hide{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+    transition: 2s;
+}
+.readMore {
+	color: dimgray;
+    font-size: 1.3rem;
 }
 
 @media (min-width: 400px) and (max-width: 799px){

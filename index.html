@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="jquery-3.2.0.min.js"></script>
+    <script src="jquery.viewportchecker.min.js"></script>
     <title>Strona o morsowaniu...</title>
 </head>
 <body>
@@ -12,7 +14,7 @@
         <div class="headBar">
             <div class="wrap">
                 <div class="wrapInner hCf">
-                    <a href="#" class="headLogo">
+                    <a href="#section" class="headLogo">
                         <span class="headLogoSpan">MORS</span></a>
                     <button class="headBurger">
                         <span class="headBurgerLine headBurgerLine1"></span>
@@ -40,97 +42,97 @@
     <container class="main">
         <section class="mors">
             <video playsinline autoplay muted loop class="morsVideo autoSize">
-                <source src="video/Mors%20cz.1%20%5BDownTube.pl%5D.mp4" type="video/mp4">
+                <source src="video/wersja%201.mp4" type="video/mp4">
             </video>
             <div class="morsOverlay"></div>
             <div class="h1Onvideo">
                 <div class="divBanner">
-                    <h1 class="h1Banner js-reveal ">MORSOWANIE</h1></div>
+                    <h1 class="h1Banner js-reveal ">morsem być...</h1></div>
             </div>
         </section>
         <section class="section">
-            <div class="wrap">
+            <div class="wrap" data-animate>
                 <div class="wrapInner">
-                    <div class="intro js-reveal">
-                        <div class="flex flexWrap hCf">
+                    <div class="showA intro js-reveal">
+                        <div class="repeatShow flex flexWrap hCf">
                             <div class="divH2 flex">
                                 <h2 class="titleH2">Morsowanie</h2></div>
                         </div>
                         <div class="contentTitleH2">
-                            <p>est jedną z możliwości regulacji temperatury ciała, która jednocześnie wzmacnia system immunologiczny. Współczesny człowiek chroni się wszelkimi sposobami przed działaniem zimna za pomocą ciepłej odzieży.</p>
+                            <p><a class="articleMors" href="#section"><span class="sr-only">jest jedną z możliwości regulacji temperatury ciała, która jednocześnie wzmacnia system immunologiczny. Współczesny człowiek chroni się wszelkimi sposobami przed działaniem zimna za pomocą ciepłej odzieży...  </span><strong>Czytaj dalej</strong></a></p>
                         </div>
                     </div>
                     <div class="divArticle flex flexWrap h-cf">
-                        <article class="article flex">
+                        <article class="showB repeatShow article flex" data-animate>
                             <div class="articleA">
-                                <a class="ratio" href="#"><img class="ratioImg" data-sizes="auto" src="images/fff.jpg" width="600" height="600"/>
+                                <a class="ratio" href="#section"><img class="ratioImg" data-sizes="auto" src="images/fff.jpg" width="600" height="600"/>
+                                </a>
+                                <div class="articleIntro">
+                                    <div class="articleInner">
+                                        <div class="content">
+                                            <div class="content">
+                                                <h2 class="titleBlock">Jak zacząć?</h2></div>
+                                            <p><a class="articleMore" href="#section"><span class="sr-only">Brak przygotowań, wystarczą chęci i preciętnie dobre zdrowie .. </span><span class="readMore"><strong>Czytaj dalej</strong></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="showB article66 flex" data-animate>
+                            <div class="repeatShow articleA">
+                                <a class="ratio ratioDouble" href="#section"><img class="ratioImg" data-sizes="auto" src="images/DDBR_1230x607-copy.jpg"  width="1230" height="600" />
+                                </a>
+                                <div class="articleIntro">
+                                    <div class="articleInner">
+                                        <div class="content">
+                                            <div class="content">
+                                                <h2 class="titleBlock">Korzyści</h2></div>
+                                            <p><a class="articleMore" href="#section"><span class="sr-only">Podstawowe korzyści to: zahartowanie ciała, zwiększenie odporności organizmu na choroby zimowe, poprawa wydolności układu sercowo-naczyniowego, lepsze ukrwienie skóry.  <br> </span><span class="readMore"><strong>Czytaj dalej</strong></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="showB article flex" data-animate>
+                            <div class=" repeatShow articleA">
+                                <a class="ratio" href="#section"><img class="ratioImg" data-sizes="auto" src="images/fff.jpg" width="600" height="600"/>
+                                </a>
+                                <div class="articleIntro">
+                                    <div class="articleInner">
+                                        <div class="content">
+                                            <div class="content">
+                                                <h2 class="titleBlock">Jak długo morsować?</h2></div>
+                                            <p><a class="articleMore" href="#section"><span class="sr-only">Na początek wystarczy dosłownie od 2 do 4 minut... <br></span><span class="readMore"><strong>Czytaj dalej</strong></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="showB article flex" data-animate>
+                            <div class="repeatShow articleA">
+                                <a class="ratio" href="#section"><img class="ratioImg" data-sizes="auto" src="images/fff.jpg" width="600" height="600"/>
+                                </a>
+                                <div class="articleIntro">
+                                    <div class="articleInner">
+                                        <div class="content">
+                                            <div class="content">
+                                                <h2 class="titleBlock">Przeciwskazania</h2></div>
+                                            <p><a class="articleMore" href="#section"><span class="sr-only">Przed rozpoczęciem morsowania powinniśmy konsultacji lekarskiej. <br> </span><span class="readMore"><strong>Czytaj dalej</strong></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="showB article flex" data-animate>
+                            <div class="repeatShow articleA">
+                                <a class="ratio" href="#section"><img class="ratioImg" data-sizes="auto" src="images/fff.jpg" width="600" height="600"/>
                                 </a>
                                 <div class="articleIntro">
                                     <div class="articleInner">
                                         <div class="content">
                                             <div class="content">
                                                 <h2 class="titleBlock">Ograniczenia wiekowe</h2></div>
-                                            <p><a class="articleMore" href="#"><span class="sr-only">Ograniczeń nie ma praktycznie żadnych, morsować można od 3-4 roku życia </span><strong>Read more</strong></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="article66 flex">
-                            <div class="articleA">
-                                <a class="ratio" href="#"><img class="ratioImg" data-sizes="auto" src="images/dsfs.jpg" alt="Ddbr 1230X607 Copy" width="1230" height="600" />
-                                </a>
-                                <div class="articleIntro">
-                                    <div class="articleInner">
-                                        <div class="content">
-                                            <div class="content">
-                                                <h2 class="titleBlock">Rozgrzewka  </h2></div>
-                                            <p><a class="articleMore" href="#"><strong>Read more</strong><span class="sr-only"> W celu wzmocnienia mechanizmu termoregulacji.</span></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="article flex">
-                            <div class="articleA">
-                                <a class="ratio" href="#"><img class="ratioImg" data-sizes="auto" src="images/fff.jpg" width="600" height="600"/>
-                                </a>
-                                <div class="articleIntro">
-                                    <div class="articleInner">
-                                        <div class="content">
-                                            <div class="content">
-                                                <h2 class="titleBlock">Ograniczenia wiekowe</h2></div>
-                                            <p><a class="articleMore" href="#"><span class="sr-only">Ograniczeń nie ma praktycznie żadnych, morsować można od 3-4 roku życia </span><strong>Read more</strong></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="article flex">
-                            <div class="articleA">
-                                <a class="ratio" href="#"><img class="ratioImg" data-sizes="auto" src="images/fff.jpg" width="600" height="600"/>
-                                </a>
-                                <div class="articleIntro">
-                                    <div class="articleInner">
-                                        <div class="content">
-                                            <div class="content">
-                                                <h2 class="titleBlock">Ograniczenia wiekowe</h2></div>
-                                            <p><a class="articleMore" href="#"><span class="sr-only">Ograniczeń nie ma praktycznie żadnych, morsować można od 3-4 roku życia </span><strong>Read more</strong></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="article flex">
-                            <div class="articleA">
-                                <a class="ratio" href="#"><img class="ratioImg" data-sizes="auto" src="images/fff.jpg" width="600" height="600"/>
-                                </a>
-                                <div class="articleIntro">
-                                    <div class="articleInner">
-                                        <div class="content">
-                                            <div class="content">
-                                                <h2 class="titleBlock">Ograniczenia wiekowe</h2></div>
-                                            <p><a class="articleMore" href="#"><span class="sr-only">Ograniczeń nie ma praktycznie żadnych, morsować można od 3-4 roku życia </span><strong>Read more</strong></a></p>
+                                            <p><a class="articleMore" href="#section"><span class="sr-only">przyjmuje się, że przygodę z morsowaniem można zacząć już w wieku 3-4 lat </span><span class="readMore"><strong>Czytaj dalej</strong></span></a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -141,15 +143,15 @@
             </div>
         </section>
 </container> 
-   <footer>
+   <footer class="footer">
        <div class="foot">
            <div class="wrap">
                <div class="wrapInner">
-                   <div class="marginBlock h-cf">
+                   
                        <div class="divFooter">
                            <p><strong>&copy; MORS POLAND 2017</strong></p>
                        </div>
-                       </div>
+                       
                    </div>
                    
                </div>
