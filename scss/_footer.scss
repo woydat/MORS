@@ -8,14 +8,3 @@
     display: inline-block;
     float: left;
 }
-@media (min-width: 400px) and (max-width: 799px) {
-    .marginBlock {
-        margin-bottom: 30px
-    }
-}
-
-@media (min-width: 800px) {
-    .marginBlock {
-        margin-bottom: 50px
-    }
-}

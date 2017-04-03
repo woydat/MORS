@@ -110,33 +110,3 @@ a.articleMore{
     opacity: 0;
 }
 
-@media (min-width: 400px) and (max-width: 799px){
-    .section {
-        padding: 35px 0;
-    }
-    .section:first-child {
-        padding-top: 40px;
-    }
-    .titleH2 {
-        font-size: 2.6rem;
-        margin-bottom: 20px;
-    }
-    .titleBlock {
-        font-size: 2.2rem;
-        margin-bottom: 20px;
-    }
-}
-
-@media (min-width: 800px){
-    .section {
-        padding: 100px 0;
-    }
-
-    .section:first-child {
-        padding-top: 120px;
-    }
-    .titleBlock {
-        font-size: 2.2rem;
-        margin-bottom: 30px
-    }
-}

@@ -148,23 +148,3 @@
     background-color: #696969;
     color: #fff
 }
-@media (min-width: 400px) and (max-width: 799px){
-    .wrapInner {
-        width: 80%;
-        margin-left: 10%
-    }
-    .headMenu {
-        font-size: 4rem;
-        font-size: 6vh
-    }
-}
-
-@media (min-width: 800px){
-    .wrapInner {
-        width: 724px
-    }
-    .headMenu {
-        font-size: 6rem;
-        font-size: 7vh
-    }
-}
